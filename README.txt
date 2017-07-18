@@ -73,3 +73,5 @@ Hints:
 	That way you can call .EndQuery() to tell the Mongo QueryProvider that all the rest of the chain should operate on the enumeration of results from the query
 	and not to attempt to translate them into the query itself.
 	
+How do you produce the .lpx file?
+Zip the output directory, then rename the .zip to .lpx. The output directory should contain the following files: header.xml LinqPadMongoDriver.dll MongoDB.Bson.dll MongoDB.Driver.dll
